@@ -17,13 +17,12 @@ mhwd -li
 
 ## Try install proprietary drivers
 ```shell
--a/--auto <usb/pci> <free/nonfree> <classid>
+sudo mhwd -a/--auto <usb/pci> <free/nonfree> <classid>
 ```
 ex
 ```shell
 sudo mhwd -a pci nonfree 0300
 ```
--a/--auto <usb/pci> <free/nonfree> <classid>
 
 ## Resolve packages conflicts
 On i3, conky use a package that have to be removed to install nvidia proprietary drivers
