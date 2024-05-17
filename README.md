@@ -79,3 +79,7 @@ sudo mhwd -r pci video-linux
 mhwd -li
 ```
 Only 390xx is displayed !
+## Set your default screen
+As you change video driver, screen names on arandr or xrandr change.  
+Open ARandR and set your new screen as default screen
+
