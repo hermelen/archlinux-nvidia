@@ -72,10 +72,5 @@ reboot
 
 Must be OK now, but maybe your GRUB is broken if you have dual boot
 ## Update the Bootloader
-Once your kernel is repaired, open a terminal on your desktop.
-```shell
-grub-mkconfig -o /boot/grub/grub.cfg
-```
-```shell
-reboot
-````
+Once your kernel is repaired, open a terminal on your desktop.  
+[restore-grub}](./restore-grub.md)
