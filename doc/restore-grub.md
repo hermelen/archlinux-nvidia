@@ -26,6 +26,9 @@ ex (the first value is your boot partition ID, etc):
 ```shell
 sudo efibootmgr --bootorder 0001,0000
 ```
+#### Notes:
+Devices ID seems to be 000* for EFI files, 200* for USB devices (maybe CD-ROM too, or it is 100*), 300* seems to be hard-disk volumes.  
+Maybe adding some 2001, 3001 etc will display other bootable devices... Have to check.
 ## Windows
 It is possible too to set Windows Boot Manager from Windows, but if linux `efibootmgr` is not ok, it will not be useful
 ```shell
