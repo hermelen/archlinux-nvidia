@@ -14,7 +14,7 @@ If it does not work, ckeck your BIOS config:
 ### manjaro-chroot
 Identify automatically the `Manjaro` partition to run
 ```shell
-sudo manjaro-chroot
+manjaro-chroot -a
 ```
 
 ### Reinstall the Kernel
