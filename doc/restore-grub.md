@@ -2,7 +2,7 @@
 ## Linux
 ### Automatic restore
 ```shell
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 ```shell
 reboot
