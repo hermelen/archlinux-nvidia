@@ -1,6 +1,11 @@
 # Archlinux restore GRUB
 ## Linux
 ### Automatic restore
+Identify bootable partition
+```shell
+sudo os-prober
+```
+Update grub with theses partitions 
 ```shell
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
