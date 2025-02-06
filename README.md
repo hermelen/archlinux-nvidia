@@ -4,3 +4,5 @@
 ### error: file `/boot/vmlinuz' not found ([error: file /boot/vmlinuz not found](./doc/vmlinuz-not-found.md))
 # Broken GRUB (several reasons)
 ### [repair grub](./doc/restore-grub.md)
+# N64 emulator
+### [mupen64plus](./doc/mupen64plus.md)
