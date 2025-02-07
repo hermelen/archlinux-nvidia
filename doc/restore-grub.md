@@ -1,5 +1,5 @@
 # Archlinux restore GRUB
-## Linux
+## Linux (from chroot or on linux OS)
 ### Automatic restore
 Identify bootable partition
 ```shell
