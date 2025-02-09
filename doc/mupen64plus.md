@@ -16,12 +16,6 @@ yay -S m64py
 ```shell
 yay -S m64py
 ```
-## Generate Configuration File
-Run Mupen64Plus with a ROM file to generate the default configuration file:
-```shell
-mupen64plus path/to/your/romfile.n64
-```
-This will create a mupen64plus.cfg file in ~/.config/mupen64plus/
 ## Edit Configuration File:
 `~/.config/mupen64plus/mupen64plus.cfg`
 ## Run mupen64plus from m64py
