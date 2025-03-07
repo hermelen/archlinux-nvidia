@@ -1,7 +1,6 @@
 ﻿# Repair your kernel
 ## Create a archlinux Live USB
 From another computer, create a Live USB with your favorite tool (Rufus, SUSE Image Writer...)
-## Recommended `manjaro-chroot` 
 ### Boot into a Live USB
 Check your destop key to boot on USB.
 #### Troubleshooting
@@ -11,6 +10,7 @@ If it does not work, ckeck your BIOS config:
 - Maybe other settings must be mandatory, Google is your best friend (after ChatGPT)  
   Sometimes, need to change BIOS boot order if boot key does not boot.
 
+## Recommended `manjaro-chroot` 
 ### manjaro-chroot
 Identify automatically the `Manjaro` partition to run
 ```shell
