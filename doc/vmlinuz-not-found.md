@@ -4,11 +4,16 @@ From another computer, create a Live USB with your favorite tool (Rufus, SUSE Im
 ### Boot into a Live USB
 Check your destop key to boot on USB.
 #### Troubleshooting
+##### Dos not boot
 If it does not work, ckeck your BIOS config:
 - FastBoot must be disabled
 - SecureBoot must be disabled
 - Maybe other settings must be mandatory, Google is your best friend (after ChatGPT)  
   Sometimes, need to change BIOS boot order if boot key does not boot.
+##### Keytable QWERTY:
+```shell
+setxkbmap fr
+```
 
 ## Recommended `manjaro-chroot` 
 ### manjaro-chroot
